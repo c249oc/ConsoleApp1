@@ -16,19 +16,19 @@ namespace ConsoleApp1
             int [] mas3 = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
             //вывод на консоль первого массива
-            Console.WriteLine("Первый массив");
+            Console.WriteLine();
             for (int i = 0; i < 10; i++)
             {    
                 Console.Write("{0}", mas1[i] + " ");
             }
             //вывод на консоль второго массива
-            Console.WriteLine("Второй массив");
+            Console.WriteLine();
             for (int i = 0; i < 10; i++)
             {
                 Console.Write("{0}", mas2[i] + " ");
             }
             //вывод на консоль третьего массива (его элементы равны сумме элементов первых двух массивов
-            Console.WriteLine("Сгенерированный массив из 1 и 2");
+            Console.WriteLine();
             for (int i = 0; i < 10; i++)
             {
                 mas3[i] = mas2[i] + mas1[i];
