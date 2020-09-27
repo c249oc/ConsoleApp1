@@ -22,13 +22,13 @@ namespace ConsoleApp1
                 Console.Write("{0}", mas1[i] + " ");
             }
             //вывод на консоль второго массива
-            Console.WriteLine("\n\n\nВторой массив");
+            Console.WriteLine("Второй массив");
             for (int i = 0; i < 10; i++)
             {
                 Console.Write("{0}", mas2[i] + " ");
             }
             //вывод на консоль третьего массива (его элементы равны сумме элементов первых двух массивов
-            Console.WriteLine("\n\n\nСгенерированный массив из 1 и 2");
+            Console.WriteLine("Сгенерированный массив из 1 и 2");
             for (int i = 0; i < 10; i++)
             {
                 mas3[i] = mas2[i] + mas1[i];
